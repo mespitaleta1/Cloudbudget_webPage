@@ -9,6 +9,15 @@ body {
   width: 90%;
 }
 
+.wrapper {
+  margin-left: 150px;
+  margin-right: 150px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+}
+
 .hero-section {
   position: relative;
   width: 100%;
@@ -104,4 +113,50 @@ body {
   background-color: #fff;
   border-radius: 5px;
   box-sizing: border-box;
+}
+
+.subtitle {
+  text-transform: capitalize;
+  letter-spacing: 0.5px;
+  line-height: 28px;
+}
+
+.text {
+  text-align: justify;
+  color: #000;
+}
+
+.lnk {
+  color: #d52047;
+  text-decoration: none;
+}
+
+.lnk:hover {
+  color: rgba(238, 61, 27);
+}
+
+.text-box {
+  flex-basis: 40%;
+}
+
+.img-box {
+  flex-basis: 40%;
+  border-radius: 10px;
+}
+
+.img {
+  width: 350px;
+  height: 350px;
+  object-fit: contain;
+  position: relative;
+}
+
+.playbtn {
+  width: 50px;
+  height: 50px;
+  align-items: center;
+  position: absolute;
+  z-index: 1;
+  bottom: -170px;
+  right: 550px;
 }
