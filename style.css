@@ -162,3 +162,42 @@ body {
   top: calc(50% - 30px);
   left: -25px;
 }
+
+.features-section {
+  background-color: gray;
+}
+
+.section-title {
+  text-align: center;
+  line-height: 28px;
+  letter-spacing: 0.5;
+  padding-top: 50px;
+}
+
+.card-txt {
+  background-color: #fff;
+  width: 350px;
+  height: 200px;
+  border-radius: 5px;
+}
+
+.card-title {
+  text-align: center;
+  text-transform: capitalize;
+  line-height: 28px;
+  letter-spacing: 0.5;
+  padding-top: 20px;
+}
+
+.card-description {
+  text-align: center;
+  color: #000;
+  padding: 0px 5px;
+}
+
+.card-link {
+  color: #d52047;
+  text-decoration: none;
+  text-align: center;
+  display: block;
+}
