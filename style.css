@@ -163,8 +163,23 @@ body {
   left: -25px;
 }
 
+/* intento de hacer el triangulo del play.
+.innerplay {
+  width: 20px;
+  height: 20px;
+  border: 1px solid #000;
+  border-left: 20px solid #000;
+  border-top: 50% solid transparent; 
+  border-bottom: 50% solid transparent; 
+  background-color: #fff;
+  z-index: 10;
+  display: flex;
+  align-content: center;
+  right: 21px;
+}*/
+
 .features-section {
-  background-color: gray;
+  background-color: #fafafa;
 }
 
 .section-title {
@@ -174,11 +189,20 @@ body {
   padding-top: 50px;
 }
 
+.img-behind {
+  border-radius: 5px;
+  width: 250px;
+  height: 100px;
+  z-index: 0;
+  object-fit: contain;
+}
+
 .card-txt {
   background-color: #fff;
   width: 350px;
   height: 200px;
   border-radius: 5px;
+  z-index: 1;
 }
 
 .card-title {
