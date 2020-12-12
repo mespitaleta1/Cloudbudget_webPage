@@ -20,12 +20,12 @@ body {
   align-content: center;
 }
 
-/*FIRST SECTION - HERO*/
+/*HERO SECTION - NAV, FILTER AND LOGIN BTN*/
 .hero-section {
   position: relative;
   width: 100%;
   z-index: 0;
-  height: 600px;
+  height: 625px;
   overflow: auto;
   background-image: url("https://imgur.com/aLZSuc5.png");
   background-repeat: no-repeat;
@@ -106,7 +106,7 @@ body {
   color: rgba(238, 61, 27);
 }
 
-/*HERO DESCRIPTION SECTION*/
+/*HERO SECTION - TITLE, DESCRIPTION AND SIGN UP BTN */
 .promo-section {
   display: flex;
   flex-direction: column;
