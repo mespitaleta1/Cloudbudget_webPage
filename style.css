@@ -135,6 +135,12 @@ body {
   background-color: #fff;
   border-radius: 5px;
   box-sizing: border-box;
+  cursor: pointer;
+  border: transparent;
+}
+
+.signup-btn:hover {
+  background: #ffefd5;
 }
 
 /*FIRST SECTION: OVERVIEW */
