@@ -126,6 +126,7 @@ body {
   color: #fff;
   text-align: center;
   margin: 30px 0;
+  max-width: 25%;
 }
 
 .signup-btn {
