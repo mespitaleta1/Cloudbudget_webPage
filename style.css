@@ -8,6 +8,7 @@ body {
 .container {
   padding: 0px 20px;
   width: 90%;
+  margin: auto;
 }
 
 .wrapper {
@@ -30,6 +31,7 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  overflow: hidden;
 }
 
 .filter {
@@ -52,7 +54,12 @@ body {
   align-items: center;
 }
 
-.nav-list {
+.menu .hamburger-menu {
+  display: none;
+}
+
+.nav,
+.second-navlist {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -62,19 +69,30 @@ body {
 .language {
   display: flex;
   align-items: center;
+  color: #fff;
 }
 
-.list-item {
+.list-item,
+.nav-item {
   list-style-type: none;
-  color: #fff;
+}
+
+.title a,
+.nav-item a {
   margin: 0 20px;
 }
 
+.title,
 .list-item a,
-.title {
-  text-decoration: none;
+.nav-item a {
   color: #fff;
+  text-decoration: none;
   text-transform: uppercase;
+}
+
+.flag,
+.entry-section {
+  display: none;
 }
 
 .btn {
