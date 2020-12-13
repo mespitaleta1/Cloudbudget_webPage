@@ -171,26 +171,37 @@ body {
 
 .img-box {
   flex-basis: 40%;
-  border-radius: 10px;
+  margin: 64px 0px;
   position: relative;
 }
 
 .img {
-  width: 350px;
-  height: 350px;
+  width: 85%;
+  border-radius: 10px;
   object-fit: contain;
 }
 
 .playbtn {
   width: 60px;
   height: 60px;
+  z-index: 1;
+  left: -25px;
+  top: calc(50% - 30px);
   border-radius: 50%;
   align-items: center;
   position: absolute;
-  z-index: 1;
-  background-color: #d52047;
-  top: calc(50% - 30px);
-  left: -25px;
+  background-color: #ed4c5c;
+}
+
+.innerplay {
+  width: 0;
+  height: 0;
+  border-left: 16px solid #fff;
+  border-top: 9px solid transparent;
+  border-bottom: 9px solid transparent;
+  top: calc(50% - 10px);
+  left: 23px;
+  position: absolute;
 }
 
 /*SECOND SECTION: FEATURES*/
