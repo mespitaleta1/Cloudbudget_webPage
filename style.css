@@ -171,13 +171,13 @@ body {
 
 .img-box {
   flex-basis: 40%;
-  border-radius: 10px;
+  margin: 64px 0px;
   position: relative;
 }
 
 .img {
-  width: 350px;
-  height: 350px;
+  width: 85%;
+  border-radius: 10px;
   object-fit: contain;
 }
 
