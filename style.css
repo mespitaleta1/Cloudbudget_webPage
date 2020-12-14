@@ -284,3 +284,24 @@ body {
 }
 
 /*THIRD SECTION: TECHNOLOGY*/
+.technology-section {
+  height: 500px;
+  background-color: #fff;
+}
+
+.tech-section {
+  width: 100%;
+}
+
+.content-tech_section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.icon {
+  left: 88px;
+  display: inline-block;
+  position: relative;
+  max-width: 30%;
+}
