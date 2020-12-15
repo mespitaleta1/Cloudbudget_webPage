@@ -305,3 +305,36 @@ body {
   position: relative;
   max-width: 30%;
 }
+
+.count {
+  position: relative;
+  z-index: 1;
+}
+
+.count::before {
+  top: -55px;
+  left: 67px;
+  z-index: -1;
+  font-size: 100px;
+  line-height: 120px;
+  font-style: normal;
+  font-weight: bold;
+  position: absolute;
+  color: rgba(16, 16, 16, 0.08);
+}
+
+.num1::before {
+  content: "01";
+}
+
+.num2::before {
+  content: "02";
+}
+
+.num3::before {
+  content: "03";
+}
+
+.num4::before {
+  content: "04";
+}
