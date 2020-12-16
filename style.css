@@ -373,4 +373,13 @@ body {
   font-size: 1em;
   line-height: 20px;
   text-align: justify;
+  width: 105%;
+}
+
+.img-icons {
+  width: 150px;
+  display: flex;
+  padding-top: 40px;
+  justify-content: space-between;
+  align-items: flex-start;
 }
