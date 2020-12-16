@@ -354,7 +354,6 @@ body {
 
 .note-part {
   flex-basis: 44%;
-  /* text-align: justify; /*revisar esta declaración*/
 }
 
 .carousel-subtitle,
