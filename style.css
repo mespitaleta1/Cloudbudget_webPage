@@ -338,3 +338,40 @@ body {
 .num4::before {
   content: "04";
 }
+
+/*FOURTH SECTION: CONTACT*/
+.carousel-section {
+  background-color: #ed4c5c;
+}
+
+.content-box {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin: 80px 0px;
+}
+
+.note-part {
+  flex-basis: 44%;
+  /* text-align: justify; /*revisar esta declaración*/
+}
+
+.carousel-subtitle,
+.carousel-text {
+  color: #fff;
+}
+
+.carousel-subtitle {
+  width: 71%;
+  font-size: 2em;
+  line-height: 48px;
+  font-weight: normal;
+  letter-spacing: 0.5px;
+}
+
+.carousel-text {
+  font-size: 1em;
+  line-height: 20px;
+  text-align: justify;
+}
