@@ -10,7 +10,7 @@ let prevBtn = document.getElementById("prevBtn");
 let nextBtn = document.getElementById("nextBtn");
 
 function onHandleSlideChange(move) {
-  const nweSlidesIdx = currentSlidesIdx.map((currentSlideIdx) => {
+  const newSlidesIdx = currentSlidesIdx.map((currentSlideIdx) => {
     let newSlide;
     if (move === PREV) {
       if (currentSlideIdx === 0) {
@@ -33,7 +33,7 @@ function onHandleSlideChange(move) {
     elementHTML.classList.remove(CLASS_VISIBLE, "center", "prev", "next");
   });
 
-  nweSlidesIdx.forEach((item, idx) => {
+  newSlidesIdx.forEach((item, idx) => {
     const elementHTML = document.getElementById(slidesId[item]);
     elementHTML.classList.add(CLASS_VISIBLE);
     switch (idx) {
