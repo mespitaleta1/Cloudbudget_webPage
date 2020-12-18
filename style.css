@@ -428,3 +428,17 @@ body {
 .carousel_item {
   transition: transform 1s, left 1s, opacity 1s, z-index 0.5s;
 }
+
+.carousel .carousel_item,
+.carousel .carousel_item--hidden {
+  display: none;
+}
+
+.carousel_item-photo {
+  border-radius: 5px;
+  max-height: 170px;
+}
+
+.carousel .carousel_item--visible {
+  display: block;
+}
