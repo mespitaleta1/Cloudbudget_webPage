@@ -442,3 +442,35 @@ body {
 .carousel .carousel_item--visible {
   display: block;
 }
+
+.carosel_btn {
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  width: 96%;
+  z-index: 12;
+  left: 133px;
+  bottom: 74px;
+}
+
+.carousel_btn-prev,
+.carousel_btn-next {
+  border: 0;
+  opacity: 0.4;
+  height: 25px;
+  width: 25px;
+  font-size: 1em;
+  position: static;
+  border-radius: 50px;
+  outline: none;
+  cursor: pointer;
+  color: #ed4c5c;
+  background-color: #fff;
+  top: calc(50% -30px);
+}
+
+.carousel_btn-prev:hover,
+.carousel_btn-next:hover {
+  background-color: #fff;
+  opacity: 1;
+}
