@@ -474,3 +474,18 @@ body {
   background-color: #fff;
   opacity: 1;
 }
+
+/*FIFTH SECTION: SURVEY*/
+.form-section {
+  margin: 100px 0px;
+  background-color: #fff;
+}
+
+.contact-box {
+  flex-basis: 47%;
+  font-weight: normal;
+}
+
+.survey {
+  flex-basis: 44%;
+}
