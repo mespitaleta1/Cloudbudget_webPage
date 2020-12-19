@@ -9,6 +9,9 @@ let slidesId = Array.from(
 let prevBtn = document.getElementById("prevBtn");
 let nextBtn = document.getElementById("nextBtn");
 
+prevBtn.addEventListener("click", () => onHandleSlideChange(PREV));
+nextBtn.addEventListener("click", () => onHandleSlideChange(NEXT));
+
 function onHandleSlideChange(move) {
   const newSlidesIdx = currentSlidesIdx.map((currentSlideIdx) => {
     let newSlide;
