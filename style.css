@@ -489,3 +489,24 @@ body {
 .survey {
   flex-basis: 44%;
 }
+
+.field {
+  padding: 10px;
+  padding-left: 20px;
+  width: 80%;
+  height: 30px;
+  border: 1.5px solid #b9b8b8;
+  border-radius: 5px;
+  margin: 10px;
+}
+
+.select-field {
+  height: 50px;
+  width: 87%;
+  color: #6d6767ed;
+}
+
+.name-field,
+.lname-field {
+  width: 33.2%;
+}
