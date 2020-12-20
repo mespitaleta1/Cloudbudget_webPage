@@ -474,3 +474,54 @@ body {
   background-color: #fff;
   opacity: 1;
 }
+
+/*FIFTH SECTION: SURVEY*/
+.form-section {
+  margin: 100px 0px;
+  background-color: #fff;
+}
+
+.contact-box {
+  flex-basis: 47%;
+  font-weight: normal;
+}
+
+.survey {
+  flex-basis: 44%;
+}
+
+.field {
+  padding: 10px;
+  padding-left: 20px;
+  width: 80%;
+  height: 30px;
+  border: 1.5px solid #b9b8b8;
+  border-radius: 5px;
+  margin: 10px;
+}
+
+.select-field {
+  height: 50px;
+  width: 87%;
+  color: #6d6767ed;
+}
+
+.name-field,
+.lname-field {
+  width: 33.2%;
+}
+
+.submit-btn {
+  width: 160px;
+  height: 50px;
+  color: #fff;
+  padding-left: 5px;
+  background-color: #ed4c5c;
+  border: 1.5px solid #ed4c5c;
+  border-radius: 5px;
+}
+
+.submit-btn:hover {
+  background-color: #d52047;
+  border: 1.5px solid #d52047;
+}
