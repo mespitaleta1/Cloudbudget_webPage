@@ -566,3 +566,161 @@ body {
   padding-bottom: 10px;
   margin-top: 30px;
 }
+
+/*RESPONSIVE*/
+@media screen and (max-width: 768px) {
+  body {
+    font-size: 0.813em;
+  }
+
+  .container {
+    padding: 10px 25px 0px;
+  }
+
+  .wrapper {
+    margin-left: 50px;
+    margin-right: 50px;
+    max-width: 80vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+  }
+
+  .logo {
+    order: 0;
+  }
+
+  .menu {
+    order: 1;
+  }
+
+  .menu .hamburger-menu {
+    display: block;
+    width: 30px;
+    margin-bottom: 5px;
+    margin-right: 20px;
+  }
+
+  .menu .nav {
+    display: none;
+    margin: 0px;
+  }
+
+  .menu .nav .nav-item {
+    margin: 10px 20px;
+  }
+
+  .flag,
+  .entry-section {
+    display: block;
+  }
+
+  .second-navlist {
+    display: none;
+  }
+
+  .menu:hover .nav {
+    width: 100%;
+    left: 0px;
+    top: 51px;
+    padding: 0px;
+    line-height: 18px;
+    font-size: 0.844em;
+    letter-spacing: 3px;
+    position: absolute;
+    text-align: right;
+    background-color: #0000003d;
+  }
+
+  .menu li a:hover {
+    text-decoration: underline;
+  }
+
+  .text-box {
+    margin-top: 100px;
+    width: 81%;
+  }
+
+  .img-box {
+    left: 45px;
+    max-width: 82%;
+  }
+
+  .img {
+    max-width: 70%;
+  }
+
+  .card-box {
+    margin-left: 56px;
+  }
+
+  .contact-box {
+    margin-top: 0px;
+    width: 85%;
+    margin-bottom: 30px;
+  }
+
+  .survey {
+    margin-left: 56px;
+  }
+
+  .select-field {
+    width: 91px;
+  }
+
+  .content-box {
+    height: fit-content;
+    flex-direction: column;
+    margin: 50px 0px 50px 0px;
+    align-items: center;
+  }
+
+  .note-part {
+    width: 74%;
+  }
+
+  .carousel {
+    justify-items: center;
+    margin-left: 15px;
+  }
+
+  .carousel-box {
+    padding-top: 300px;
+    width: 100%;
+  }
+
+  .carousel_btn {
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    width: 58%;
+    z-index: 12;
+    left: 190px;
+    bottom: -53px;
+  }
+
+  .end-section {
+    height: fit-content;
+  }
+
+  .footer-group {
+    flex-wrap: wrap;
+    margin-top: 30px;
+    font-size: 0.8em;
+  }
+
+  .footer-title {
+    margin-top: 0px;
+  }
+
+  .group1,
+  .group2 {
+    width: 33%;
+  }
+
+  .copyright {
+    font-size: 0.8em;
+    margin-left: 50px;
+  }
+}
