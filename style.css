@@ -727,3 +727,20 @@ body {
     margin-left: 50px;
   }
 }
+
+@media screen and (max-width: 1131px) {
+  .features-section {
+    height: fit-content;
+  }
+  .card-box {
+    flex-wrap: wrap;
+  }
+
+  .footer-group {
+    font-size: 0.813em;
+  }
+
+  .copyright {
+    font-size: 0.813em;
+  }
+}
