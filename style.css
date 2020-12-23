@@ -744,3 +744,30 @@ body {
     font-size: 0.813em;
   }
 }
+
+@media screen and (max-width: 1066px) {
+  .technology-section {
+    height: fit-content;
+  }
+
+  .content-tech_section {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .count {
+    margin-bottom: 60px;
+  }
+
+  .num3 {
+    margin-left: 5px;
+  }
+
+  .footer-group {
+    font-size: 0.844em;
+  }
+
+  .copyright {
+    font-size: 0.844em;
+  }
+}
