@@ -1,5 +1,6 @@
 body {
   margin: 0;
+  font-size: 1em;
   font-family: "Lato";
   color: #000;
 }
@@ -7,13 +8,14 @@ body {
 /*GLOBAL SET OF LANDING PAGE*/
 .container {
   padding: 0px 20px;
-  width: 90%;
+  width: 90vw;
   margin: auto;
 }
 
 .wrapper {
   margin-left: 150px;
   margin-right: 150px;
+  max-width: 90vw;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -628,6 +630,7 @@ body {
     line-height: 18px;
     font-size: 0.844em;
     letter-spacing: 3px;
+    display: none;
     position: absolute;
     text-align: right;
     background-color: #0000003d;
